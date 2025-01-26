@@ -1,0 +1,342 @@
+/* Estilos generales para las tarjetas */
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Estilo para el cuadro rectangular */
+  .rectangular-card {
+    width: 100%;
+    height: auto; /* Ajusta la altura automáticamente */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+  }
+  
+  /* Imagen dentro de la tarjeta */
+  .card-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 16px;
+    border: 2px solid #ccc;
+  }
+  
+  /* Detalles de la tarjeta */
+  .details {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .details h4 {
+    margin: 0 0 8px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .details p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Balance dentro de la tarjeta */
+  .balance {
+    text-align: right;
+  }
+  
+  .balance p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .balance strong {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Efecto hover para las tarjetas */
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .action-button {
+    background-color: #db7e3e; /* Color naranja */
+    color: #fff; /* Color del texto */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px; /* Bordes redondeados */
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: all 0.3s ease; /* Transición suave */
+  }
+  
+  .action-button:hover {
+    background-color: #db7e3e;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  /* Cuentas.css */
+
+.detalle-container {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .back-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cuenta-detalles {
+    margin-top: 20px;
+  }
+  
+  .account-info {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .account-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .acciones-rapidas {
+    margin-top: 30px;
+  }
+  
+  .acciones-rapidas-menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .action-item button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .movimientos-detalle {
+    margin-top: 30px;
+  }
+  
+  .fecha-selector input {
+    margin: 5px;
+  }
+  
+  .tipo-visualizacion select {
+    margin: 5px;
+  }
+  
+  .busqueda {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .historial-transferencias {
+    margin-top: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .historial-transferencias {
+  margin-top: 20px;
+}
+
+.historial-container {
+  border: 1px solid #ddd; /* Bordes del cuadro */
+  border-radius: 8px;
+  overflow-y: auto; /* Barra de desplazamiento vertical */
+  max-height: 300px; /* Altura máxima del cuadro */
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Para quitar el espacio entre celdas */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Línea separadora entre filas */
+}
+
+th {
+  background-color: #f4f4f4; /* Color de fondo para las cabeceras */
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f9f9f9; /* Resaltar fila al pasar el ratón */
+}
+.historial-transferencias {
+    margin-top: 20px;
+  }
+  
+  .historial-container {
+    border: 1px solid #ddd; /* Bordes del cuadro */
+    border-radius: 8px;
+    overflow-y: auto; /* Barra de desplazamiento vertical */
+    max-height: 300px; /* Altura máxima del cuadro */
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Para quitar el espacio entre celdas */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Línea separadora entre filas */
+  }
+  
+  th {
+    background-color: #f4f4f4; /* Color de fondo para las cabeceras */
+    font-weight: bold;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9; /* Resaltar fila al pasar el ratón */
+  }
+  
+  /* Estilos para el Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button[type="button"] {
+  background-color: #ccc;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.edit-account-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.btn-guardar {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-cancelar {
+  background-color: #f44336;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #2196F3;
+  color: white;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-guardar:hover,
+.btn-cancelar:hover {
+  opacity: 0.9;
+}
+
+.cuentas-gestionar-button {
+  margin-top: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: white;
+  background-color: #aa4b0b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
